@@ -9,12 +9,11 @@ before_script:
  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 deploy_staging:
  type: deploy
-  environment:
+ environment:
   name: staging
   url: s.adirasamart.com
-script:
- - ssh $USER@$SERVER -p $PORT "cd public_html/futami && git checkout main && git pull origin master && 
-exit"
-only:
- - master
+ script:
+  - ssh $USER@$SERVER -p $PORT "cd public_html/futami && git checkout main && git pull origin master && exit"
+ only:
+  - master
 
