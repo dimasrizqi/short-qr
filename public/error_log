@@ -1,0 +1,6 @@
+[04-Apr-2022 04:53:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/laravel/framework/src/Illuminate/Support/Str.php on line 177
+[04-Apr-2022 04:53:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 390
+[04-Apr-2022 04:53:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 338
+[04-Apr-2022 04:53:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/facade/ignition/src/QueryRecorder/Query.php on line 29
+[04-Apr-2022 04:53:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[04-Apr-2022 04:54:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/izbuqebp/short.tamiya.id/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/Grammar.php on line 1136
