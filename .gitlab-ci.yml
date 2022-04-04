@@ -13,7 +13,7 @@ deploy_staging:
   name: staging
   url: s.adirasamart.com
  script:
-  - ssh $USER@$SERVER -p $PORT "cd public_html/futami && git checkout ter&& git pull origin master && exit"
+  - ssh $USER@$SERVER -p $PORT "cd public_html/futami && git checkout master && git pull origin master && exit"
  only:
   - master
 
