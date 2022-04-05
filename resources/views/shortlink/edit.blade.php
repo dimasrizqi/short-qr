@@ -63,13 +63,13 @@
                 <div class="card">
                     <div class="">
                         
-                        <p>qrcode untuk link {{$host}}/{{$datashortlink->shortlink}} </p>
+                        <p>qrcode untuk link <a href="{{$host}}/{{$datashortlink->shortlink}}">{{$host}}/{{$datashortlink->shortlink}}</a> </p>
                         <p>
                         
                         </p>
                         
                     </div>
-                        <img width="200px" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{$host}}/{{$datashortlink->shortlink}}"></img>
+                        <img width="200px" src="https://chart.googleapis.com/chart?chd=h&chs=300x300&cht=qr&chl={{$host}}/{{$datashortlink->shortlink}}"></img>
             </div>
 
         </div>

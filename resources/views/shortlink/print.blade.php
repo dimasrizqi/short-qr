@@ -8,11 +8,11 @@
         
         @if ($no % 7 ==0)
             <tr>
-            <td align="center"> <img width="100" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={{$host}}/{{$item->shortlink}}"></img><br>
+            <td align="center"> <img width="100" src="https://chart.googleapis.com/chart?chd=h&chs=70x70&cht=qr&chl={{$host}}/{{$item->shortlink}}"></img><br>
             {{ $item->nama_link}} 
             </td>
         @else
-            <td align="center"> <img width="100" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={{$host}}/{{$item->shortlink}}"></img><br>
+            <td align="center"> <img width="100" src="https://chart.googleapis.com/chart?chd=l&chs=70x70&cht=qr&chl={{$host}}/{{$item->shortlink}}"></img><br>
             {{ $item->nama_link }} 
             </td>
         @endif
