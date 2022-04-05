@@ -90,9 +90,9 @@ class shortlinkController extends Controller
     
     public function edit(Request $request,$id)
     {
-        $host = $request->getSchemeAndHttpHost(); 
         $datashortlink = DB::table('shortlink')->where('shortlink',$id)->first();
-        // dd($datashortlink);
+        $host = $request->getSchemeAndHttpHost(); 
+        
         return view('shortlink.edit',[
             'datashortlink'=>$datashortlink,
             'host'=>$host

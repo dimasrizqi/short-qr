@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- </div> Created By <a href="https://www.instagram.com/dimasrizqi">RADJA RIZQI RAMADHAN </a>  -->
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>@yield('title') - Laboratorium Kimia </title>
+  <title>@yield('title') - Futami </title>
 
   <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -30,8 +31,8 @@
       </div>
       <footer class="main-footer">
         <div class="footer-left">
-            Radja Rizqi Ramadhan &copy; {{ date('Y') }} 
-              <!-- </div> Created By <a href="https://www.instagram.com/dimasrizqi">RADJA RIZQI RAMADHAN </a>  -->
+            Futami &copy; {{ date('Y') }} 
+              
         </div>
         
       </footer>

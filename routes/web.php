@@ -14,8 +14,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/profile', 'otentikasi\OtentikasiController@profile' )-> name('profile') ;
     Route::post('/profile/simpan', 'otentikasi\OtentikasiController@profilesimpan') -> name('profile-user-simpan');
     //home
-    Route::get('/home', function () {    return view('home');    });
-    Route::get('/', function () {    return view('home');    });
+    Route::get('/home', 'otentikasi\OtentikasiController@home' )-> name('home') ;
+    Route::get('/', 'otentikasi\OtentikasiController@home' )-> name('home') ;
     Route::delete('/userdel/{id}','datapelangganController@destroy')->name('userdel');
     Route::get('/reset/{id}','datapelangganController@resetpass')->name('resetpass');
     

@@ -35,6 +35,10 @@ class OtentikasiController extends Controller
     public function tambah(){
         return view('otentikasi.tambah-user');
     }
+    public function home(){
+        $datashortlink = DB::table('shortlink')->where('id_user',session()->get('id_user'))->get();
+        return view('home', [ 'datashortlink'=>$datashortlink ] );
+    }
 
     public function resetpass(Request $request){
         DB::table('users')
